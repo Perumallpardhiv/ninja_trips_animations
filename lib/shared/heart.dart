@@ -11,7 +11,7 @@ class _HeartState extends State<Heart> with SingleTickerProviderStateMixin {
   bool isFav = false;
   Animation<double> _sizeAnimation;
   Animation _curve;
-
+  
   @override
   void initState() {
     super.initState();

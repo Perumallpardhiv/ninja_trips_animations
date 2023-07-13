@@ -26,19 +26,19 @@ class _SandboxState extends State<Sandbox> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
+            ElevatedButton(
               child: Text('Animate Margin'),
               onPressed: () => setState(() => _margin = 50),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('Animate Color'),
               onPressed: () => setState(() => _color = Colors.purple),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('Animate Width'),
               onPressed: () => setState(() => _width = 350),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('Animate Opacity'),
               onPressed: () => setState(() => _opacity = 0 ), // means invisible
             ),
